@@ -47,7 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="2.5.0.280555" />
+    <PackageReference Include="Xamarin.Forms" Version="2.5.1.527436" />
     <PackageReference Include="Xamarin.Android.Support.Design" Version="25.4.0.2" />
     <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="25.4.0.2" />
     <PackageReference Include="Xamarin.Android.Support.v4" Version="25.4.0.2" />
@@ -80,9 +80,9 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Xamarin_FirstApp\Xamarin_FirstApp.csproj">
-      <Project>{29067FCD-EA5A-47A8-9169-ACA5B294C6AB}</Project>
-      <Name>Xamarin_FirstApp</Name>
+    <ProjectReference Include="..\Xamarin-FirstApp\Xamarin-FirstApp.csproj">
+      <Project>{dde4400d-5d84-4684-9eaa-44170538d958}</Project>
+      <Name>Xamarin-FirstApp</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
